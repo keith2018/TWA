@@ -2,12 +2,11 @@
 // Created by Keith on 2020/1/8.
 //
 
-#ifndef TWA_RUNTIME_H
-#define TWA_RUNTIME_H
+#pragma once
 
-#include "Store.h"
-#include "Stack.h"
-#include "Utils.h"
+#include "store.h"
+#include "stack.h"
+#include "utils.h"
 
 namespace TWA {
 
@@ -39,4 +38,3 @@ public:
 };
 
 }
-#endif //TWA_RUNTIME_H

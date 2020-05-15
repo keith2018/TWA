@@ -4,10 +4,9 @@
 
 #include <map>
 #include <iostream>
-#include "Instantiation.h"
-#include "Runtime.h"
-#include "OpCode.h"
-#include "Utils.h"
+#include "instantiation.h"
+#include "runtime.h"
+#include "opcode.h"
 
 
 namespace TWA {

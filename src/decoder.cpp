@@ -2,12 +2,12 @@
 // Created by Keith on 2019/12/18.
 //
 
+#include "decoder.h"
 #include <fstream>
 #include <sstream>
 #include <iostream>
-#include "Decoder.h"
-#include "Module.h"
-#include "OpCode.h"
+#include "module.h"
+#include "opcode.h"
 
 namespace TWA {
 

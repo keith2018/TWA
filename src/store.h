@@ -2,14 +2,13 @@
 // Created by Keith on 2019/12/27.
 //
 
-#ifndef TWA_STORE_H
-#define TWA_STORE_H
+#pragma once
 
 #include <map>
 #include <iostream>
-#include "TWA.h"
-#include "Instruction.h"
-#include "Module.h"
+#include "twa.h"
+#include "instruction.h"
+#include "module.h"
 
 namespace TWA {
 
@@ -171,4 +170,3 @@ struct Store {
 };
 
 }
-#endif //TWA_STORE_H

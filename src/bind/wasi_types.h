@@ -2,10 +2,9 @@
 // Created by Keith on 2020/1/20.
 //
 
-#ifndef TWA_WASITYPES_H
-#define TWA_WASITYPES_H
+#pragma once
 
-#include "../TWA.h"
+#include "../twa.h"
 
 namespace TWA {
 namespace WASI {
@@ -351,5 +350,3 @@ struct Wasi_prestat_t {
 
 }
 }
-
-#endif //TWA_WASITYPES_H

@@ -6,8 +6,8 @@
  */
 
 #include <iostream>
-#include "Application.h"
-#include "Time.h"
+#include "application.h"
+#include "timer.h"
 
 void printResults(TWA::TypedValue &ret) {
     printf("Result: ");

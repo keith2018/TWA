@@ -2,12 +2,11 @@
 // Created by Keith on 2019/12/27.
 //
 
-#ifndef TWA_STACK_H
-#define TWA_STACK_H
+#pragma once
 
 
 #include <iostream>
-#include "Store.h"
+#include "store.h"
 
 namespace TWA {
 
@@ -207,4 +206,3 @@ struct Stack {
 };
 
 }
-#endif //TWA_STACK_H

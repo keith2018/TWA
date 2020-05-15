@@ -2,12 +2,11 @@
 // Created by Keith on 2019/12/18.
 //
 
-#ifndef TWA_DECODER_H
-#define TWA_DECODER_H
+#pragma once
 
 #include <iostream>
-#include "TWA.h"
-#include "Module.h"
+#include "twa.h"
+#include "module.h"
 
 namespace TWA {
 
@@ -100,4 +99,3 @@ private:
 };
 
 }
-#endif //TWA_DECODER_H

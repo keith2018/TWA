@@ -2,10 +2,9 @@
 // Created by Keith on 2019/12/20.
 //
 
-#ifndef TWA_OPCODE_H
-#define TWA_OPCODE_H
+#pragma once
 
-#include "TWA.h"
+#include "twa.h"
 
 namespace TWA {
 
@@ -377,4 +376,3 @@ static const U8 OpMaxLength	            = 0xFF;
     REG_OP_FUNC(Op_f64_reinterpret_i64);\
 
 }
-#endif //TWA_OPCODE_H

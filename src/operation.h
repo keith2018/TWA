@@ -2,13 +2,13 @@
 // Created by Keith on 2020/1/10.
 //
 
-#ifndef TWA_OPERATION_H
-#define TWA_OPERATION_H
+#pragma once
 
-#include "OpCode.h"
-#include "Instruction.h"
-#include "Runtime.h"
 #include <cmath>
+#include "opcode.h"
+#include "instruction.h"
+#include "runtime.h"
+
 
 namespace TWA {
 
@@ -1040,4 +1040,3 @@ OP_FUNC_DEFINE(Op_f64_reinterpret_i64) {
 }
 
 }
-#endif //TWA_OPERATION_H

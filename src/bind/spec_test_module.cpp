@@ -3,8 +3,8 @@
 //
 
 
-#include "SpecTestModule.h"
-#include "../Native.h"
+#include "spec_test_module.h"
+#include "../native.h"
 
 
 namespace TWA {

@@ -2,11 +2,10 @@
 // Created by Keith on 2020/1/20.
 //
 
-#ifndef TWA_WASIMODULE_H
-#define TWA_WASIMODULE_H
+#pragma once
 
 
-#include "../Runtime.h"
+#include "../runtime.h"
 
 namespace TWA {
 namespace WASI {
@@ -18,5 +17,3 @@ public:
 
 }
 }
-
-#endif //TWA_WASIMODULE_H

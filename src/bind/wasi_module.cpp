@@ -3,9 +3,9 @@
 //
 
 #include <iostream>
-#include "../Native.h"
-#include "WASIModule.h"
-#include "WASITypes.h"
+#include "../native.h"
+#include "wasi_module.h"
+#include "wasi_types.h"
 
 namespace TWA {
 namespace WASI {

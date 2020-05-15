@@ -2,11 +2,10 @@
 // Created by Keith on 2019/12/25.
 //
 
-#ifndef TWA_INSTANTIATION_H
-#define TWA_INSTANTIATION_H
+#pragma once
 
-#include "Store.h"
-#include "Module.h"
+#include "store.h"
+#include "module.h"
 
 namespace TWA {
 
@@ -24,4 +23,3 @@ private:
 };
 
 }
-#endif //TWA_INSTANTIATION_H

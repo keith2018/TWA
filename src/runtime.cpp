@@ -2,10 +2,10 @@
 // Created by Keith on 2020/1/8.
 //
 
+#include "runtime.h"
 #include <iostream>
-#include "Runtime.h"
-#include "OpCode.h"
-#include "Operation.h"
+#include "opcode.h"
+#include "operation.h"
 
 namespace TWA {
 

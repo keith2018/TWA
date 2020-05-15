@@ -2,8 +2,7 @@
 // Created by Keith on 2020/1/14.
 //
 
-#ifndef TWA_TIME_H
-#define TWA_TIME_H
+#pragma once
 
 #include <iostream>
 #include <ctime>
@@ -21,5 +20,3 @@ static clock_t timer_start;
 
 }
 }
-
-#endif //TWA_TIME_H

@@ -2,10 +2,9 @@
 // Created by Keith on 2020/1/26.
 //
 
-#ifndef TWA_SPECTESTMODULE_H
-#define TWA_SPECTESTMODULE_H
+#pragma once
 
-#include "../Runtime.h"
+#include "../runtime.h"
 
 namespace TWA {
 
@@ -15,4 +14,3 @@ public:
 };
 
 }
-#endif //TWA_SPECTESTMODULE_H

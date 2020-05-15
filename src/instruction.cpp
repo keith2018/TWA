@@ -2,7 +2,7 @@
 // Created by Keith on 2020/2/1.
 //
 
-#include "Instruction.h"
+#include "instruction.h"
 
 namespace TWA {
 

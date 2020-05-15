@@ -2,12 +2,12 @@
 // Created by Keith on 2019/12/20.
 //
 
-#ifndef TWA_INSTRUCTION_H
-#define TWA_INSTRUCTION_H
+#pragma once
 
-#include "TWA.h"
-#include "OpCode.h"
 #include <vector>
+#include "twa.h"
+#include "opcode.h"
+
 
 namespace TWA {
 
@@ -68,4 +68,3 @@ void releaseInstr(BaseInstr *ins);
 void releaseExprCodes(ExprCodes &ec);
 
 }
-#endif //TWA_INSTRUCTION_H

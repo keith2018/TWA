@@ -2,13 +2,13 @@
 // Created by Keith on 2019/12/19.
 //
 
-#ifndef TWA_MODULE_H
-#define TWA_MODULE_H
+#pragma once
 
-#include "TWA.h"
-#include "Instruction.h"
 #include <vector>
 #include <string>
+#include "twa.h"
+#include "instruction.h"
+
 
 namespace TWA {
 
@@ -98,4 +98,3 @@ public:
 
 
 }
-#endif //TWA_MODULE_H

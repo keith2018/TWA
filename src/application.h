@@ -2,12 +2,11 @@
 // Created by Keith on 2020/1/26.
 //
 
-#ifndef TWA_APPLICATION_H
-#define TWA_APPLICATION_H
+#pragma once
 
 
-#include "Store.h"
-#include "Runtime.h"
+#include "store.h"
+#include "runtime.h"
 
 #define ARG_FORMAT_FOR_TEST
 
@@ -36,4 +35,3 @@ private:
 };
 
 }
-#endif //TWA_APPLICATION_H

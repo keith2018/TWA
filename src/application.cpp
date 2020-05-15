@@ -2,11 +2,11 @@
 // Created by Keith on 2020/1/26.
 //
 
-#include "Application.h"
-#include "Decoder.h"
-#include "Instantiation.h"
-#include "bind/SpecTestModule.h"
-#include "bind/WASIModule.h"
+#include "application.h"
+#include "decoder.h"
+#include "instantiation.h"
+#include "bind/spec_test_module.h"
+#include "bind/wasi_module.h"
 
 
 namespace TWA {

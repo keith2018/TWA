@@ -2,11 +2,11 @@
 // Created by Keith on 2019/12/31.
 //
 
-#ifndef TWA_UTILS_H
-#define TWA_UTILS_H
+#pragma once
 
-#include "TWA.h"
-#include "cmath"
+#include <cmath>
+#include "twa.h"
+
 
 namespace TWA {
 namespace Utils {
@@ -186,5 +186,3 @@ inline F64 MAX_F64(F64 a, F64 b) {
 
 }
 }
-
-#endif //TWA_UTILS_H

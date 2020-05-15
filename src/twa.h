@@ -2,8 +2,7 @@
 // Created by Keith on 2019/12/19.
 //
 
-#ifndef TWA_TWA_H
-#define TWA_TWA_H
+#pragma once
 
 #include <cstdint>
 #include <vector>
@@ -194,5 +193,3 @@ static const char* TrapDesc[] = {
 };
 
 }
-
-#endif //TWA_TWA_H

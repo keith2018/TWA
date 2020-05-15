@@ -2,8 +2,7 @@
 // Created by Keith on 2020/1/26.
 //
 
-#ifndef TWA_NATIVE_H
-#define TWA_NATIVE_H
+#pragma once
 
 namespace TWA {
 
@@ -22,5 +21,3 @@ struct FuncInstance_##name : public FuncInstance {                              
     moduleInst->exports[#name] = ExportInstance(#name, ExtTypeFunc, moduleInst->funcAddrs.back());  \
 
 }
-
-#endif //TWA_NATIVE_H
