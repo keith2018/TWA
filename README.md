@@ -1,5 +1,7 @@
 # TWA
-Tiny WebAssembly Runtime with full [MVP](https://webassembly.github.io/spec/core/) features support
+Tiny pure C++ WebAssembly runtime with full [MVP](https://webassembly.github.io/spec/core/) features support (interpreter mode only). 
+
+![](images/webassembly.png)
 
 ## Build
 
@@ -20,25 +22,19 @@ Usage:
   twa cmd
 ```
 
-fibnacci
+Fibnacci
 
 ```
-./twa run ../test/fib.c.wasm --func fib 30
+cd bin
+./twa run fib.c.wasm --func fib 30
 ```
 
-command line
+CommandLine mode
 
 ```
 :init
 :load <file>
 <function> [args...]
-```
-
-## Test
-
-```
-cd test
-python3 run-spec-test.py
 ```
 
 ## License
